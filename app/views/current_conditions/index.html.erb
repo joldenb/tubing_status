@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tubing Conditions</title>
+</head>
+<body>
+
+	<h1>
+		<%= @go_tubing %>
+	</h1>
+	<% if @temperature_message %>
+		<h3>
+			<%= @temperature_message %>
+		</h3>
+	<% end %>
+	<% if @weather_message %>
+		<h3>
+			<%= @weather_message %>
+		</h3>
+	<% end %>
+	<% if @flow_message %>
+		<h3>
+			<%= @flow_message %>
+		</h3>
+	<% end %>
+	<%= image_tag(@img_url, :alt => "tubing picture") %>
+
+</body>
+</html>
