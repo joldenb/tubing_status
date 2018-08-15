@@ -1,27 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Follow these steps to get started:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# tubing_status
+```
+git clone https://github.com/joldenb/tubing_status
+bundle install
+rails s
+```
+## tubing_status
 This is a rails app to tell you whether to go tubing or not.
